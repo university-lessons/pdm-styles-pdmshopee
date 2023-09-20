@@ -1,26 +1,11 @@
-import {
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-} from "react-native";
-
+import { StyleSheet, TextInput, View } from "react-native";
 import React, { useState } from "react";
 import IconButton from "./IconButton";
 
 export default function Search() {
-  const [value, setValue] = useState("");
-
-  const handleSearch = () => {
-    console.log("Search for:", value);
-  };
-
   return (
     <View style={styles.container}>
-      <IconButton iconName="search1" onPress={handleSearch} />
-
-      <TextInput style={styles.input} value={value} onChangeText={setValue} />
+      <IconButton iconName="search1" />
 
       <IconButton iconName="camerao" />
     </View>
