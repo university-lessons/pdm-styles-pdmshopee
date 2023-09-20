@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
+
 import React, { useState } from "react";
 import NumberSign from "./QuickOffers/OfferSign";
 import Placeholder from "./QuickOffers/Placeholder";

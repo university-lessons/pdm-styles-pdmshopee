@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 import IconButton from "./IconButton";
 import React, { useState } from "react";
 
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     flexDirection: "row",
     justifyContent: "space-evenly",
+    paddingBottom: 24,
     shadowColor: "black",
     shadowOffset: { width: 1, height: 10 },
     shadowOpacity: 1,
