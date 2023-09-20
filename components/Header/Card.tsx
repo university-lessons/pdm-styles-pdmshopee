@@ -9,6 +9,8 @@ interface CardProps {
   color: number;
 }
 
+
+
 export default function Card({ text, color }: CardProps) {
   console.log(color);
 
